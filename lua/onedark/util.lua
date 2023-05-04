@@ -14,9 +14,6 @@ local function hexToRgb(hex_str)
   return { tonumber(r, 16), tonumber(g, 16), tonumber(b, 16) }
 end
 
----@param fg string foreground color
----@param bg string background color
----@param alpha number number between 0 and 1. 0 results in bg, 1 results in fg
 function util.blend(fg, bg, alpha)
   bg = hexToRgb(bg)
   fg = hexToRgb(fg)
