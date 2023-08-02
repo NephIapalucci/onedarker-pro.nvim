@@ -134,7 +134,7 @@ hl.syntax = {
 if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
     hl.treesitter = {
         ["@annotation"] = colors.Fg,
-        ["@attribute"] = colors.Red,
+        ["@attribute"] = colors.Cyan,
         ["@boolean"] = colors.Orange,
         ["@character"] = colors.Orange,
         ["@comment"] = {fg = c.grey, fmt = cfg.code_style.comments},
@@ -167,7 +167,7 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
         ["@punctuation.bracket"] = colors.LightGrey,
         ["@punctuation.special"] = colors.Red,
         ["@repeat"] = {fg = c.purple, fmt = cfg.code_style.keywords},
-		["@storageclass"] = colors.Purple,
+		["@storageclass"] = colors.Yellow,
         ["@string"] = {fg = c.green, fmt = cfg.code_style.strings},
         ["@string.regex"] = {fg = c.orange, fmt = cfg.code_style.strings},
         ["@string.escape"] = {fg = c.red, fmt = cfg.code_style.strings},
@@ -194,10 +194,10 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
         ["@warning"] = colors.Fg,
         ["@danger"] = colors.Fg,
         ["@type"] = colors.Yellow,
-        ["@type.builtin"] = colors.Purple,
+        ["@type.builtin"] = colors.Orange,
 		["@type.qualifier"] = colors.Purple,
         ["@variable"] = {fg = c.red, fmt = cfg.code_style.variables},
-        ["@variable.builtin"] = {fg = c.cyan, fmt = cfg.code_style.variables},
+        ["@variable.builtin"] = {fg = c.purple, fmt = cfg.code_style.variables},
     }
     if vim.api.nvim_call_function("has", { "nvim-0.9" }) == 1 then
         hl.lsp = {
