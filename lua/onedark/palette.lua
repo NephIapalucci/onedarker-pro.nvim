@@ -1,11 +1,11 @@
 return {
 	darker = {
 		black = "#0e1013",
-		bg0 = "#181826", -- 181b20, #061115, #060E15
-		bg1 = "#131621", -- 232631
-		bg2 = "#131621", -- 30363F
-		bg3 = "#232641", -- 323641
-		bg_d = "#000A0E",
+		bg0 = "#060115", -- 181b20, #061115, #060E15
+		bg1 = "#130c27", -- 130c27 Accent, cursor bar
+		bg2 = "#130c27", -- Neotree Accent
+		bg3 = "#232641", -- Lualine language
+		bg_d = "#0D091B", -- Neotree
 		bg_blue = "#61afef",
 		bg_yellow = "#e8c88c",
 		fg = "#a0a8b7",
