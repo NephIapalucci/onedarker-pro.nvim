@@ -1,9 +1,20 @@
 # One Midnight
 
-A deep midnight blurple theme with One Dark colors.
+A deep midnight blurple theme with One Dark colors for Neovim with TreeSitter support.
 
-## Example
+## Showcase
 
 One Darker Pro theme:
 
 ![onedarker theme](./docs/demo-after.png)
+
+## Installation
+
+```lua
+{
+	"neph-iap/one-midnight.nvim",
+	config = function()
+		require("onedark").load()
+	end,
+},
+```
