@@ -1,13 +1,9 @@
-# onedarker-pro.nvim
+# One Midnight
 
-A darker and more colored OneDark theme for Neovim.
+A deep midnight blurple theme with One Dark colors.
 
 ## Example
 
 One Darker Pro theme:
 
 ![onedarker theme](./docs/demo-after.png)
-
-Compared to original from [navarasu](https://github.com/navarasu/onedark.nvim):
-
-![onedark theme](./docs/demo-before.png)
