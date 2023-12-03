@@ -23,10 +23,10 @@ local one_midnight = {
 		b = { fg = colors.fg, bg = c.bg3 },
 		c = { fg = colors.fg, bg = cfg.lualine.transparent and c.none or c.bg1 },
 	},
-	visual = { a = { fg = colors.bg, bg = colors.purple, gui = "none" } },
-	replace = { a = { fg = colors.bg, bg = colors.red, gui = "none" } },
-	insert = { a = { fg = colors.bg, bg = colors.green, gui = "none" } },
-	command = { a = { fg = colors.bg, bg = colors.yellow, gui = "none" } },
+	visual = { a = { fg = colors.bg, bg = colors.red, gui = "none" } },
+	replace = { a = { fg = colors.bg, bg = colors.yellow, gui = "none" } },
+	insert = { a = { fg = colors.bg, bg = colors.purple, gui = "none" } },
+	command = { a = { fg = colors.bg, bg = colors.green, gui = "none" } },
 	terminal = { a = { fg = colors.bg, bg = colors.cyan, gui = "none" } },
 }
 return one_midnight
