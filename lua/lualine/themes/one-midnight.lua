@@ -19,13 +19,13 @@ local one_midnight = {
 		c = { fg = colors.gray, bg = cfg.lualine.transparent and c.none or c.bg1 },
 	},
 	normal = {
-		a = { fg = colors.bg, bg = colors.green, gui = "none" },
+		a = { fg = colors.bg, bg = colors.blue, gui = "none" },
 		b = { fg = colors.fg, bg = c.bg3 },
 		c = { fg = colors.fg, bg = cfg.lualine.transparent and c.none or c.bg1 },
 	},
 	visual = { a = { fg = colors.bg, bg = colors.purple, gui = "none" } },
 	replace = { a = { fg = colors.bg, bg = colors.red, gui = "none" } },
-	insert = { a = { fg = colors.bg, bg = colors.blue, gui = "none" } },
+	insert = { a = { fg = colors.bg, bg = colors.green, gui = "none" } },
 	command = { a = { fg = colors.bg, bg = colors.yellow, gui = "none" } },
 	terminal = { a = { fg = colors.bg, bg = colors.cyan, gui = "none" } },
 }
