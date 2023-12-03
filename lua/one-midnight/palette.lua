@@ -28,4 +28,3 @@ return {
 		diff_text = "#274964",
 	},
 }
-
