@@ -12,7 +12,7 @@ One Darker Pro theme:
 
 ```lua
 {
-	"neph-iap/one-midnight.nvim",
+	"one-midnight-theme/one-midnight.nvim",
 	config = function()
 		require("onedark").load()
 	end,
