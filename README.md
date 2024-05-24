@@ -14,7 +14,7 @@ One Darker Pro theme:
 {
 	"one-midnight-theme/one-midnight.nvim",
 	config = function()
-		require("onedark").load()
+		require("one-midnight").load()
 	end,
 },
 ```
